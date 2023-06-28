@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "fastify": "3.2",
+    "mercurius": "^11.3.0"
+  },
+  "dependencies": {
+    "middie": "^7.1.0",
+    "node-fetch": "2.6"
+  }
+}

@@ -14,6 +14,7 @@ recipe(id: $id) {
   pid
 }`;
 
+
 server.get("/", async () => {
   const req = await fetch(`http://${TARGET}/graphql`, {
     method: "POST",
